@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chat Application</title>
+  <link rel="stylesheet" href="style.css" />
+  <script type="module" src="script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    
+    <!-- Login Section -->
+    <div class="login-screen" id="loginScreen">
+      <h2>Welcome to ChatApp 💬</h2>
+      <input type="text" id="username" placeholder="Enter your name..." />
+      <button id="joinBtn">Join Chat</button>
+    </div>
+
+    <!-- Chat Section -->
+    <div class="chat-screen hidden" id="chatScreen">
+        <header>
+        <h2>Chat Room 🌍</h2>
+              <p id="typingIndicator" class="typing-text hidden">Someone is typing...</p>
+        <button id="logoutBtn">Logout</button>
+      </header>
+
+      <div class="chat-box" id="chatBox">
+        <!-- Messages will appear here dynamically -->
+      </div>
+
+      <div class="chat-input">
+        <input type="text" id="messageInput" placeholder="Type a message..." />
+        <button id="sendBtn">Send</button>
+      </div>
+    </div>
+
+  </div>
+  <audio id="msgSound" src="https://actions.google.com/sounds/v1/alarms/beep_short.ogg"></audio>
+
+</body>
+</html>
