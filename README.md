@@ -33,7 +33,7 @@ The app features live message updates, typing indicators, sound notifications fo
 ✅ Sound notifications for new messages  
 ✅ Smooth auto-scroll animation  
 ✅ Responsive design (mobile-friendly)  
-✅ Logout and clear chat options  
+✅ Logout and clear chat option 
 
 ---
 
